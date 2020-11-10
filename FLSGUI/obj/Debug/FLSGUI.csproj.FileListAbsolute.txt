@@ -1,0 +1,9 @@
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Debug\FLSGUI.exe
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Debug\FLSGUI.pdb
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.csprojAssemblyReference.cache
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.Properties.Resources.resources
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.csproj.GenerateResource.cache
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.exe
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.pdb
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.Form1.resources

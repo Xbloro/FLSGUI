@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FLSGUI", "FLSGUI\FLSGUI.csproj", "{44F82B8A-83CB-4A4D-AF66-997055F16EBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44F82B8A-83CB-4A4D-AF66-997055F16EBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44F82B8A-83CB-4A4D-AF66-997055F16EBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44F82B8A-83CB-4A4D-AF66-997055F16EBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44F82B8A-83CB-4A4D-AF66-997055F16EBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BCD0760-FF02-436F-AA41-2ADA8847E80C}
+	EndGlobalSection
+EndGlobal
