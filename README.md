@@ -2,6 +2,8 @@
 
 Small GUI Tool to create FLS on Windows
 
+Since it skips files that it is not allow to access, i suggest to run it as an admin.
+
 run with .net4.x (not needed if compiled as a standalone)
 
 To compile as a standalone with msbuild : Msbuild.exe /t:Publish /p:SelfContained=True /p:Configuration=Release /p:Plateform=x86 /p:PublishDir=C:/Users/wereveruwant
