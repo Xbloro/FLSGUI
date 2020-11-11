@@ -7,3 +7,4 @@ C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.csproj.CoreCompile
 C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.exe
 C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.pdb
 C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Debug\FLSGUI.Form1.resources
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Debug\FLSGUI.exe.config

@@ -6,6 +6,8 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace FLSGUI
 {
@@ -15,15 +17,26 @@ namespace FLSGUI
         {
             InitializeComponent();
         }
-        void GetFls(string flsPath,string csvFile)
+
+        async Task GetFlsAsync (string flsPath,string csvFile)
         {
+            
             panelWait.Visible = true;
             lblProcess.Visible = true;
+            
+            await Task.Run(() =>
+            {
+                manage_fls fl = new manage_fls(csvFile);
+                fl.GenerateCSVFls(csvFile);
+                fl.GetFLS(flsPath);
+            });
+        }
+       public static  void GetFls(string flsPath, string csvFile)
+        {   
+
             manage_fls fl = new manage_fls(csvFile);
             fl.GenerateCSVFls(csvFile);
             fl.GetFLS(flsPath);
-            panelWait.Visible = false;
-            lblProcess.Visible = false;
         }
 
         static string GetDir(string title)
@@ -74,8 +87,10 @@ namespace FLSGUI
             }
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private  void button1_Click(object sender, EventArgs e)
         {
+
+
             string dirCSV = GetDir("Selct path to CSV output");
             if ( dirCSV == null){
                 return;
@@ -86,8 +101,26 @@ namespace FLSGUI
                 return;
             }
 
-            GetFls(dirBegin, dirCSV);
-            MessageBox.Show("Finito");
+            panelWait.Visible = true;
+            lblProcess.Visible = true;
+            btnFLS.Enabled = false;
+            //var t = Task.Run(async () => { GetFlsAsync(dirBegin, dirCSV);  });}
+
+            Thread t = new Thread(() =>
+            {
+                GetFls(dirBegin, dirCSV);
+                Action ShowWait = () => panelWait.Visible = false;
+                Action ShowLblWait = () => lblProcess.Visible = false;
+                Action showEnd = () => MessageBox.Show("Finito");
+                Action setActiveBtn = () => btnFLS.Enabled = true;
+                this.BeginInvoke(ShowWait);
+                this.BeginInvoke(ShowLblWait);
+                this.BeginInvoke(showEnd);
+                this.BeginInvoke(setActiveBtn);
+            });
+
+            t.Start();
+            
         }
 
         private void Form1_Load(object sender, EventArgs e)
