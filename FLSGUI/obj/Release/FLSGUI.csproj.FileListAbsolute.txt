@@ -1,0 +1,14 @@
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Release\FLSGUI.exe.config
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Release\FLSGUI.exe.manifest
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Release\FLSGUI.application
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Release\FLSGUI.exe
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\bin\Release\FLSGUI.pdb
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.csprojAssemblyReference.cache
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.Form1.resources
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.Properties.Resources.resources
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.csproj.GenerateResource.cache
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.csproj.CoreCompileInputs.cache
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.exe.manifest
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.application
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.exe
+C:\Users\Hugo\Documents\GitHub\FLSGUI\FLSGUI\obj\Release\FLSGUI.pdb
