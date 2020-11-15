@@ -1,10 +1,12 @@
 # FLSGUI
 
-Small GUI Tool to create FLS on Windows
+Small GUI Tool to create FLS on Windows.
+
+Put photos and more here : https://xbloro.github.io/tool/GUI-FLS-Tool/
 
 Since it skips files that it is not allow to access, i suggest to run it as an admin.
 
-run with .net4.x (not needed if compiled as a standalone)
+run with .net4.x, currently trying to embed it as a real Standalone without the need of .net
 
 To compile as a standalone with msbuild : Msbuild.exe /t:Publish /p:SelfContained=True /p:Configuration=Release /p:Plateform=x86 /p:PublishDir=C:/Users/wereveruwant
 
